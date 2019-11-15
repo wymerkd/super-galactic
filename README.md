@@ -17,6 +17,7 @@
 | Should correctly determine if age type is a number | 29 | 'number' |
 | Should correctly divide user age by .24 to determine age on Mercury | 29 | 121 |
 | Should correctly divide user age by .62 to determine age on Venus | 29 | 48 |
+| Should correctly divide user age by 1.88 to determine age on Mars | 29 | 15 |
 | | | |
 
 ## Setup/Installation Requirements
