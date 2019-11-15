@@ -1,16 +1,15 @@
 export class Age {
   constructor(earthYears) {
     this.earthYears = earthYears;
-    this.jupiterYears = [];
   }
 
   mercuryAge() {
-    let mercury = Math.round(this.earthYears / .24);
+    let mercury = Math.round(this.earthYears / 0.24);
     return mercury;
   }
 
   venusAge() {
-    let venus = Math.round(this.earthYears / .62);
+    let venus = Math.round(this.earthYears / 0.62);
     return venus;
   }
 
