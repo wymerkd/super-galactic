@@ -6,4 +6,9 @@ describe('Age', () => {
     var userAge = new Age(29);
     expect(userAge.earthYears).toEqual(29);
   });
+
+  test('should correctly determine if age type is a number', () => {
+    var ageType = new Age(29);
+    expect(typeof ageType.earthYears).toEqual('number');
+  });
 });

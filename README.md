@@ -14,7 +14,7 @@
 |  Behavior | Input  | Output  |
 |---|---|---|
 | Should correctly create an age object with current age | 29 | 29 |
-| | | |
+| Should correctly determine if age type is a number | 29 | 'number' | 
 | | | |
 | | | |
 
