@@ -2,8 +2,9 @@ import { Age } from './../src/super-galactic.js';
 
 describe('Age', () => {
 
+  let userAge = new Age(29);
+
   test('should correctly create an age object with current age', () => {
-    let userAge = new Age(29);
     expect(userAge.earthYears).toEqual(29);
   });
 
