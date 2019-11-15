@@ -11,4 +11,10 @@ describe('Age', () => {
     var ageType = new Age(29);
     expect(typeof ageType.earthYears).toEqual('number');
   });
+
+  test('should correctly divide user age by .24 to determine age on Mercury', () => {
+    var userAge = new Age(29);
+    expect(userAge.earthYears.mercuryAge()).toEqual(121);
+  });
+
 });
