@@ -1,9 +1,11 @@
 import { Age } from './../src/super-galactic.js';
 
 describe('Age', () => {
+  let userAge = new Age(29,71);
 
-  let userAge = new Age(29);
-  let deathAge = new Age(71);
+  test('should correctly create an age object with life expectancy age', () => {
+    expect(userAge.lifeExpectancy).toEqual(71);
+  });
 
   test('should correctly create an age object with current age', () => {
     expect(userAge.earthYears).toEqual(29);
@@ -27,9 +29,5 @@ describe('Age', () => {
 
   test('should correctly divide user age by 11.86 to determine age on Jupiter', () => {
     expect(userAge.jupiterAge()).toEqual(2);
-  });
-
-  test('should correctly create an age object with life expectancy age', () => {
-    expect(deathAge.lifeExpectancy).toEqual(71);
   });
 });
