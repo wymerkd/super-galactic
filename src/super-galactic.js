@@ -28,4 +28,9 @@ export class Age {
     let earthDeath = this.lifeExpectancy - this.earthYears;
     return earthDeath;
   }
+
+  mercuryLife() {
+    let mercuryDeath = Math.round(this.lifeExpectancy - this.earthYears) / .24);
+    return mercuryDeath;
+  }
 };
