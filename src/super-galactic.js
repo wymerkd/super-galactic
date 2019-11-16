@@ -23,4 +23,9 @@ export class Age {
     let jupiter = Math.round(this.earthYears / 11.86);
     return jupiter;
   }
+
+  earthLife() {
+    let earthDeath = this.lifeExpectancy - this.earthYears;
+    return earthDeath;
+  }
 };
