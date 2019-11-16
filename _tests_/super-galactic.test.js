@@ -35,5 +35,7 @@ describe('Age', () => {
     expect(userAge.earthLife()).toEqual(42);
   });
 
-
+  test('should correctly subtract user age from life expectancy on Earth and divide result by .24', () => {
+    expect(userAge.mercuryLife()).toEqual(175);
+  });
 });
