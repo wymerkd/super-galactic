@@ -21,6 +21,8 @@
 | Should correctly divide user age by 11.86 to determine age on Jupiter | 29 | 15 |
 | Should correctly create an average life expectancy object with worldwide average life expectancy  | 71 | 71 |
 | Should correctly subtract user age from life expectancy on Earth | 29 | 42 |
+| Should correctly subtract user age from life expectancy and divide result by .24 to determine life left on Mercury | 29 | 175 |
+
 
 ## Setup/Installation Requirements
 * _Use the following link to view the page: ()_
