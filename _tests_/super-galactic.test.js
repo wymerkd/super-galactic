@@ -30,4 +30,10 @@ describe('Age', () => {
   test('should correctly divide user age by 11.86 to determine age on Jupiter', () => {
     expect(userAge.jupiterAge()).toEqual(2);
   });
+
+  test('should correctly subtract user age from life expectancy on Earth', () => {
+    expect(userAge.earthLife()).toEqual(42);
+  });
+
+
 });
