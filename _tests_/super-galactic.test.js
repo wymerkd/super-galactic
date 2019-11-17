@@ -42,4 +42,8 @@ describe('Age', () => {
   test('should correctly subtract user age from life expectancy on Earth and divide result by .62 to determine life left on Venus', () => {
     expect(userAge.venusLife()).toEqual(68);
   });
+
+  test('should correctly subtract user age from life expectancy on Earth and divide result by 1.88 to determine life left on Mars', () => {
+    expect(userAge.marsLife()).toEqual(22);
+  });
 });
