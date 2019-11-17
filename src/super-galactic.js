@@ -1,3 +1,8 @@
+const mercuryYear = 0.24;
+const venusYear = 0.62;
+const marsYear = 1.88;
+const jupiterYear = 11.86;
+
 export class Age {
   constructor(earthYears, lifeExpectancy) {
     this.earthYears = earthYears;
@@ -5,19 +10,19 @@ export class Age {
   }
 
   mercuryAge() {
-    return Math.round(this.earthYears / 0.24);
+    return Math.round(this.earthYears / mercuryYear);
   }
 
   venusAge() {
-    return Math.round(this.earthYears / 0.62);
+    return Math.round(this.earthYears / venusYear);
   }
 
   marsAge() {
-    return Math.round(this.earthYears / 1.88);
+    return Math.round(this.earthYears / marsYear);
   }
 
   jupiterAge() {
-    return Math.round(this.earthYears / 11.86);
+    return Math.round(this.earthYears / jupiterYear);
   }
 
   earthLife() {
@@ -25,19 +30,19 @@ export class Age {
   }
 
   mercuryLife() {
-    return Math.round((this.lifeExpectancy - this.earthYears) / 0.24);
+    return Math.round((this.lifeExpectancy - this.earthYears) / mercuryYear);
   }
 
   venusLife() {
-    return Math.round((this.lifeExpectancy - this.earthYears) / 0.62);
+    return Math.round((this.lifeExpectancy - this.earthYears) / venusYear);
   }
 
   marsLife() {
-    return Math.round((this.lifeExpectancy - this.earthYears) / 1.88);
+    return Math.round((this.lifeExpectancy - this.earthYears) / marsYear);
   }
 
   jupiterLife() {
-    return Math.round((this.lifeExpectancy - this.earthYears) / 11.86);
+    return Math.round((this.lifeExpectancy - this.earthYears) / jupiterYear);
   }
 
   yearsPastExpectancy() {
