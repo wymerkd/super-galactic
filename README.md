@@ -6,8 +6,7 @@
 
 ## Description
 
-<!-- _This project demonstrates my current skills and understanding of HTML, CSS, Bootstrap 4, Javascript, and jQuery. The application consists of an order form where the user can customize a pizza order. It collects data from the user and runs the it through a series of loops and branching to determine the price of the custom pizza. The resulting price and summary of their order will appear on the page when the submit button is clicked._ -->
-
+_This project demonstrates my current skills and understanding of Test Driven Development. The application consists of a series of functions that calculate a user's age and life expectancy on a given planet. The application also breaks down each process into specifications and determines if code was written correctly by testing with Jest. The user's age is set to 29 and currently does not allow user to enter a specific age to be calculated._
 
 ## Specifications
 
@@ -28,10 +27,7 @@
 | If user is older than 71, should correctly subtract life expectancy (71) by user age to determine years lived past life expectancy| 80 | 9 |
 
 
-
 ## Setup/Installation Requirements
-* _Use the following link to view the page: ()_
-* _Or_
 * _Clone or download the repository from GitHub_
 * _Open index.html in browser_
 
