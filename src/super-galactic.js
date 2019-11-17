@@ -5,32 +5,26 @@ export class Age {
   }
 
   mercuryAge() {
-    let mercury = Math.round(this.earthYears / 0.24);
-    return mercury;
+     return Math.round(this.earthYears / 0.24);
   }
 
   venusAge() {
-    let venus = Math.round(this.earthYears / 0.62);
-    return venus;
+    return Math.round(this.earthYears / 0.62);
   }
 
   marsAge() {
-    let mars = Math.round(this.earthYears / 1.88);
-    return mars;
+    return Math.round(this.earthYears / 1.88);
   }
 
   jupiterAge() {
-    let jupiter = Math.round(this.earthYears / 11.86);
-    return jupiter;
+    return Math.round(this.earthYears / 11.86);
   }
 
   earthLife() {
-    let earthDeath = this.lifeExpectancy - this.earthYears;
-    return earthDeath;
+    return this.lifeExpectancy - this.earthYears;
   }
 
   mercuryLife() {
-    let mercuryDeath = Math.round(this.lifeExpectancy - this.earthYears) / .24);
-    return mercuryDeath;
+    return Math.round((this.lifeExpectancy - this.earthYears) / .24);
   }
 };
