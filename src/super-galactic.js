@@ -35,4 +35,8 @@ export class Age {
   marsLife() {
     return Math.round((this.lifeExpectancy - this.earthYears) / 1.88);
   }
+
+  jupiterLife() {
+    return Math.round((this.lifeExpectancy - this.earthYears) / 11.86);
+  }
 };
