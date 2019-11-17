@@ -3,23 +3,23 @@ import { Age } from './../src/super-galactic.js';
 describe('Age', () => {
   let userAge = new Age(29,71);
 
-  test('should correctly create an age object with life expectancy age', () => {
-    expect(userAge.lifeExpectancy).toEqual(71);
-  });
-
   test('should correctly create an age object with current age', () => {
     expect(userAge.earthYears).toEqual(29);
   });
 
-  test('should correctly determine if age type is a number', () => {
-    expect(typeof userAge.earthYears).toEqual('number');
+  test('should correctly create an age object with life expectancy age', () => {
+    expect(userAge.lifeExpectancy).toEqual(71);
   });
 
-  test('should correctly divide user age by .24 to determine age on Mercury', () => {
+  test('should correctly determine if age types are numbers', () => {
+    expect(typeof userAge.earthYears && typeof userAge.lifeExpectancy).toEqual('number');
+  });
+
+  test('should correctly divide user age by 0.24 to determine age on Mercury', () => {
     expect(userAge.mercuryAge()).toEqual(121);
   });
 
-  test('should correctly divide user age by .62 to determine age on Venus', () => {
+  test('should correctly divide user age by 0.62 to determine age on Venus', () => {
     expect(userAge.venusAge()).toEqual(47);
   });
 
