@@ -39,4 +39,10 @@ export class Age {
   jupiterLife() {
     return Math.round((this.lifeExpectancy - this.earthYears) / 11.86);
   }
+
+  yearsPastExpectancy() {
+    if (this.earthYears > this.lifeExpectancy) {
+      return this.earthYears - this.lifeExpectancy;
+    }
+  }
 };
