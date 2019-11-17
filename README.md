@@ -24,6 +24,7 @@
 | Should correctly subtract user age from life expectancy and divide result by .24 to determine life left on Mercury | 29 | 175 |
 | Should correctly subtract user age from life expectancy and divide result by .62 to determine life left on Venus | 29 | 68 |
 | Should correctly subtract user age from life expectancy and divide result by 1.88 to determine life left on Mars | 29 | 22 |
+| Should correctly subtract user age from life expectancy and divide result by 11.86 to determine life left on Jupiter| 29 | 22 |
 
 
 
