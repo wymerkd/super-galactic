@@ -1,6 +1,6 @@
 # _Super Galactic Age Calculator_
 
-#### _A web application that is used to calculate an age based on the solar year of a variety of planets , 11/15/2019_
+#### _A web application that determines a user’s age based on a planet’s solar years, 11/15/2019_
 
 #### By _**Kyle Wymer**_
 
@@ -24,7 +24,8 @@
 | Should correctly subtract user age from life expectancy and divide result by .24 to determine life left on Mercury | 29 | 175 |
 | Should correctly subtract user age from life expectancy and divide result by .62 to determine life left on Venus | 29 | 68 |
 | Should correctly subtract user age from life expectancy and divide result by 1.88 to determine life left on Mars | 29 | 22 |
-| Should correctly subtract user age from life expectancy and divide result by 11.86 to determine life left on Jupiter| 29 | 22 |
+| Should correctly subtract user age from life expectancy and divide result by 11.86 to determine life left on Jupiter| 29 | 4 |
+| If user is older than 71, should correctly subtract life expectancy (71) from user age to determine years lived past life expectancy| 80 | 9 |
 
 
 
