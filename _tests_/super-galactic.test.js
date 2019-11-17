@@ -31,11 +31,15 @@ describe('Age', () => {
     expect(userAge.jupiterAge()).toEqual(2);
   });
 
-  test('should correctly subtract user age from life expectancy on Earth', () => {
+  test('should correctly subtract user age from life expectancy on Earth to determine life left on Earth', () => {
     expect(userAge.earthLife()).toEqual(42);
   });
 
-  test('should correctly subtract user age from life expectancy on Earth and divide result by .24', () => {
+  test('should correctly subtract user age from life expectancy on Earth and divide result by .24 to determine life left on Mercury', () => {
     expect(userAge.mercuryLife()).toEqual(175);
+  });
+
+  test('should correctly subtract user age from life expectancy on Earth and divide result by .62 to determine life left on Venus', () => {
+    expect(userAge.venusLife()).toEqual(68);
   });
 });
