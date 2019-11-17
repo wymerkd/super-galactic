@@ -29,7 +29,10 @@ _This project demonstrates my current skills and understanding of Test Driven De
 
 ## Setup/Installation Requirements
 * _Clone or download the repository from GitHub_
-* _Open index.html in browser_
+* _Download Node.js from the official Node.js web site: (https://nodejs.org)_
+* _Navigate to the root of the super-galactic directory via terminal_
+* _Run the following command in terminal: npm install_
+
 
 ## Known Bugs
 
@@ -43,9 +46,12 @@ _Please contact Kyle Wymer, at wymerkd@gmail.com if support is needed_
 
 * _HTML_
 * _CSS_
-* _Bootstrap 4_
+* _Bootstrap_
 * _JavaScript_
 * _jQuery_
+* _NPM_
+* _Jest_
+
 
 ### License
 
