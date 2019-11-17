@@ -22,6 +22,7 @@
 | Should correctly create an average life expectancy object with worldwide average life expectancy  | 71 | 71 |
 | Should correctly subtract user age from life expectancy on Earth | 29 | 42 |
 | Should correctly subtract user age from life expectancy and divide result by .24 to determine life left on Mercury | 29 | 175 |
+| Should correctly subtract user age from life expectancy and divide result by .62 to determine life left on Venus | 29 | 68 |
 
 
 ## Setup/Installation Requirements
