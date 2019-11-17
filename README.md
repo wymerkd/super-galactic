@@ -16,8 +16,8 @@
 | Should correctly create an age object with current age | 29 | 29 |
 | Should correctly create an average life expectancy object with worldwide average life expectancy  | 71 | 71 |
 | Should correctly determine if age types are numbers | 29 | 'number' |
-| Should correctly divide user age by .24 to determine age on Mercury | 29 | 121 |
-| Should correctly divide user age by .62 to determine age on Venus | 29 | 48 |
+| Should correctly divide user age by 0.24 to determine age on Mercury | 29 | 121 |
+| Should correctly divide user age by 0.62 to determine age on Venus | 29 | 48 |
 | Should correctly divide user age by 1.88 to determine age on Mars | 29 | 15 |
 | Should correctly divide user age by 11.86 to determine age on Jupiter | 29 | 15 |
 | Should correctly subtract user age from life expectancy on Earth | 29 | 42 |
