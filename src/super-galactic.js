@@ -5,7 +5,7 @@ export class Age {
   }
 
   mercuryAge() {
-     return Math.round(this.earthYears / 0.24);
+    return Math.round(this.earthYears / 0.24);
   }
 
   venusAge() {
@@ -25,6 +25,10 @@ export class Age {
   }
 
   mercuryLife() {
-    return Math.round((this.lifeExpectancy - this.earthYears) / .24);
+    return Math.round((this.lifeExpectancy - this.earthYears) / 0.24);
+  }
+
+  venusLife() {
+    return Math.round((this.lifeExpectancy - this.earthYears) / 0.62);
   }
 };
